@@ -1,0 +1,113 @@
+
+img[class=logo] {
+width: 20%;
+position: relative;
+top: 5px; left: 10px;
+}
+
+body {
+    background-image: url("NetflixBg.jpg");
+    position: relative;
+    width: 50%;
+    height: 1092.33px;
+    display: block;
+}
+
+
+
+div[class=flex-container] {
+    flex-direction: column;
+    background: rgba(000, 000, 000, 0.75);
+    width: 75%;
+    position: relative;
+    left: 600px; bottom: 1500px;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+
+}
+
+input[type=text] {
+  cursor: text;
+  color: #8c8c8c;
+  background-color: #333;
+  border: 100px;
+  width: 50%;
+  height: 150%;
+  position: relative;
+  top: 50px; left: 150px;
+  padding: 14px 25px;
+
+}
+
+
+
+input[type=password] {
+  cursor: text;
+  color: #8c8c8c;
+  background-color: #333;
+  border: 100px;
+  width: 50%;
+  height: 150%;
+  position: relative;
+  top: 70px; left: 150px;
+  padding: 14px 25px;
+
+}
+
+
+button {
+  background-color: #e50914;
+  color: white;
+  padding: 14px 25px;
+  margin: 150px 260px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+
+input[type=checkbox] {
+         position: relative;
+         left: 50px;
+         bottom: 100px;
+	 cursor: pointer;
+    }
+
+
+label {
+         position: relative;
+         left: 50px;
+         bottom: 101px;
+         color: white
+}
+
+a {
+color: #0071eb;
+position: relative;
+left: 350px;
+bottom: 100px;
+}
+
+
+div {
+
+position: relative;
+top: 80px; left: 150px;
+}
+
+img {
+
+position: relative;
+bottom: 90px; right: 100px;
+}
+
+span {
+
+color: #8c8c8c;
+position: relative;
+bottom: 95px; right: 100px;
+cursor: pointer;
+}
